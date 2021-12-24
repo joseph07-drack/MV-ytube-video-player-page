@@ -39,3 +39,54 @@
     color: blue;
     font-size: 0.95rem;
   }
+
+  /*TOP-NAVBAR */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.9);
+    
+  }
+  .top-nav__left {
+    display: flex;
+    align-items: center;
+  }
+  .top-nav-logo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+  .top-nav__middle {
+    display: flex;
+    align-items: center;
+  }
+  .top-nav__middle-form {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+  }
+  .top-nav__middle-input-field {
+    border: none;
+    outline: none;
+    width: 600px;
+    padding: 9px;
+    opacity: 0.5;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .top-nav__middle-input-field::placeholder {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
