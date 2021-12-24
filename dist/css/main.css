@@ -4,3 +4,38 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  /*some general styles*/
+  .body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    position: relative;
+    background: rgba(255, 247, 247, 0.8);
+  }
+  
+  img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .material-icons {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
+  }
+  
+  .rounded-material-icon {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.95rem;
+  }
