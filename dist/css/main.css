@@ -153,4 +153,46 @@
     align-items: center;
   }
   
+
+  .channel-info__desc {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .channel-info__desc img {
+    margin-right: 15px;
+  }
+  
+  .chanel__subscribe-btn {
+    display: block;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background: #b60808;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 0.6rem;
+  }
+  
+  .current-vidoe-short-desc {
+    width: 600px;
+  }
+  
+  .channel-info__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .chanel__name p {
+    font-size: 0.99rem;
+    margin-top: 10px 0 0 0;
+  }
+  
+  .chanel__subscribers {
+    margin-bottom: 10px;
+  }
+  
   
