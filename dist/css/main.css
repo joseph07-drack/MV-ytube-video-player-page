@@ -121,4 +121,36 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
   }
   
+  .video-info {
+    display: flex;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+  }
+  .video-info p:first-child {
+    margin-right: 2px;
+  }
+  
+  .video-reaction {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  .video-reaction-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-reaction-like span {
+    margin-right: 5px;
+  }
+  .video-reaction .material-icons {
+    color: #000;
+  }
+  
+  .video-extra-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   
