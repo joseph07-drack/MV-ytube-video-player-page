@@ -145,6 +145,11 @@
     margin-right: 5px;
     font-size: 20px;
   }
+
+  .video-reaction-icons p {
+    font-size: 15px;
+  }
+
   .video-reaction .material-icons {
     color: #000;
   }
@@ -249,4 +254,11 @@
   .side-video__chanel-name .material-icons {
     font-size: 18px;
     margin-left: 2px;
+  }
+
+  /* add some media queries */
+  @media (max-width: 768px) {
+      .show {
+          grid-template-rows: 1fr 1fr;
+      }   
   }
