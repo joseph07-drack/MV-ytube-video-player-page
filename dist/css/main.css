@@ -195,4 +195,43 @@
     margin-bottom: 10px;
   }
   
+  .suggested-videos {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+  
+  .suggested-videos {
+    display: flex;
+  }
+  
+  .side-video-container {
+    margin-left: 10px;
+  }
+  .side-video-container .side-video__title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .side-video__extra-info {
+    display: flex;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .side-video__extra-info p:first-child {
+    margin-right: 5px;
+  }
+  
+  .side-video__chanel-name {
+    display: flex;
+    align-items: center;
+  }
+  .side-video__chanel-name a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .side-video__chanel-name .material-icons {
+    font-size: 18px;
+    margin-left: 2px;
+  }
+  
   
