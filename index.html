@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/dist/css/main.css">
     <title>Youtube Video Player Page</title>
 </head>
@@ -44,7 +47,7 @@
         <div class="show__main">
             <div class="show__main-video">
                 <div class="show__main-video-clip">
-                    <iframe width="950" height="550" src="https://www.youtube.com/embed/PkZNo7MFNFg" 
+                    <iframe width="950" height="550" src="https://www.youtube.com/embed/r4TgqWbKRtA" 
                     title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen></iframe>
@@ -60,23 +63,32 @@
 
                     <!-- video likes, dislike, share, ... Icons -->
                     <div class="video-reaction">
-                        <div class="video-reaction-like">
-                            <span class="material-icons">
+                        <div class="video-reaction-icons">
+                            <span class="material-icons" title="I like this">
                                 thumb_up
                             </span>
                             <p>5.1k</p>
                         </div>
-                        <span class="material-icons">
-                            closed_caption_off
-                        </span>
-                        <span class="material-icons">
-                            settings
+                        <div class="video-reaction-icons">
+                            <span class="material-icons" title="I dislike this">
+                                thumb_down
                             </span>
-                        <span class="material-icons" title="create">
-                            apps
-                        </span>
-                        <span class="material-icons">
-                            fullscreen
+                            <p>DISLIKE</p>
+                        </div>
+                        <div class="video-reaction-icons">
+                            <span class="material-icons" title="share">
+                                share
+                            </span>
+                            <p>SHARE</p>
+                        </div>
+                        <div class="video-reaction-icons">
+                            <span class="material-icons" title="share">
+                                playlist_add
+                            </span>
+                            <p>SAVE</p>
+                        </div>
+                        <span class="material-icons" title="more">
+                            more_horiz
                         </span>
                     </div>
                 </div>
@@ -92,7 +104,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eos!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eos!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eos!
-                            <h5>SHOW MORE</h5>
+                            <a href="">SHOW MORE</a>
                         </div>
                     </div>
                 </div>
