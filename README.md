@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MV-ytube-video-player-page project trial from Microverse
+## MV-ytube-video-player-page project trial from Microverse
 
-## During this project I have building a simple clone of the Youtube video player using HTML and pure CSS and deploy it using the GitHub pages tool
+During this project I have building a simple clone of the Youtube video player using HTML and pure CSS and deploy it using the GitHub pages tool
 
 ## Live Demo
 [Live demo](https://joseph07-drack.github.io/MV-ytube-video-player-page/)
